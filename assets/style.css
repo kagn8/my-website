@@ -378,3 +378,14 @@ a i{
   
 }
 
+@media screen and (max-width: 1200px){
+    .nome3{
+        left: 30%;
+    }
+    .nome4{
+        left: 35%;
+    }
+    .shakera {width: 166px;}
+
+}
+
