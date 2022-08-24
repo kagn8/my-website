@@ -1,7 +1,7 @@
-html{
+html body{
+    background-color: #151d25;
+    color: white; 
     font-family: 'Urbanist', sans-serif;
-    
-
 }
 .top {
   background-color: #151d25;
@@ -386,10 +386,7 @@ a i{
         left: 35%;
     }
     .shakera {width: 166px;}
-    html body{
-        background-color: #151d25;
-        color: white;
-    }
+   
 
 }
 
