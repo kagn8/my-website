@@ -9,7 +9,7 @@ html body{
   width: 100%;
   display: flex;
   position: relative;
-  box-shadow: 3px 12px 37px 4px rgba(0,0,0,0.37);
+  /* box-shadow: 3px 12px 37px 4px rgba(0,0,0,0.37); */
 }
 .inner-top {
   top: 15%;
