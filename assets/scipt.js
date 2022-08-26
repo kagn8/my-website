@@ -62,4 +62,4 @@ function inviaMail() {
 }
 
 let tastoInvia = document.querySelector("#invia");
-tastoInvia.addEventListener("click", inviaMail);
+tastoInvia.addEventListener("click", inviaMail );
