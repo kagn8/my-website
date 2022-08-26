@@ -54,3 +54,12 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
+
+function inviaMail() {
+    var oggetto = document.querySelector("#soggetto").value;
+    var messaggio = document.querySelector("#contenuto").value;
+    location.href = "mailto:" + "fc.dev.8@gmail.com" + "?Subject=" + oggetto + "&Body=" + messaggio;
+}
+
+let tastoInvia = document.querySelector("#invia");
+tastoInvia.addEventListener("click", inviaMail);
