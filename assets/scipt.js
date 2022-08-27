@@ -73,9 +73,13 @@ tastoInvia.addEventListener("click", inviaMail);
 let cat = document.getElementById("catty");
 
 addEventListener('mousemove', (event) => {
-  cat.style.top= event.screenY -170+"px";
-  cat.style.left= event.screenX -930+ "px";
-  console.log(cat.style.top);
+  cat.style.top= event.clientY+"px";
+  cat.style.left= event.clientX  +"px";
+});
+
+addEventListener("ontouchmove", (event) => {
+  cat.style.top= event.clientY+"px";
+  cat.style.left= event.clientX  +"px";
 });
 
 
