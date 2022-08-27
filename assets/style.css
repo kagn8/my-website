@@ -138,6 +138,24 @@ html body {
   position: relative;
   animation: text-focus-in 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 }
+#catty{
+  background-image: url("img/cat-fall-umbrella1.png");
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 50px;
+  width: 50px;
+  z-index: 10;
+  
+  
+  background-size: contain;
+  animation: swing ease-in-out 1s infinite alternate;
+}
+@keyframes swing {
+  0% { transform: rotate(6deg); }
+  100% { transform: rotate(-6deg); }
+}
+
 .ang {
   width: 25px;
   height: 25px;

@@ -50,7 +50,6 @@ window.onload = function () {
       new TxtType(elements[i], JSON.parse(toRotate), period);
     }
   }
-  // INJECT CSS
   var css = document.createElement("style");
   css.type = "text/css";
   css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
@@ -71,3 +70,12 @@ function inviaMail() {
 
 let tastoInvia = document.querySelector("#invia");
 tastoInvia.addEventListener("click", inviaMail);
+let cat = document.getElementById("catty");
+
+addEventListener('mousemove', (event) => {
+  cat.style.top= event.screenY -170+"px";
+  cat.style.left= event.screenX -930+ "px";
+  console.log(cat.style.top);
+});
+
+
